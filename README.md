@@ -1,39 +1,48 @@
 # 🎮 Just Divide Game
 
-A fun and interactive number puzzle game built with **React**, where players strategically place tiles and use division logic to clear the board and score points.
+An interactive number puzzle game built with **React**, where players place tiles on a 4×4 grid and use division-based logic to clear the board and score points.
 
 ---
 
-## 🧠 Concept
+## 🧠 Overview
 
-The goal is simple:
+Just Divide is a logic puzzle game where numbers interact using mathematical rules.
+The goal is to clear tiles strategically and achieve the highest score possible.
 
-* Place number tiles on a 4×4 grid
-* Merge tiles using **division rules**
-* Clear tiles and maximize your score
+---
 
-### 🔢 Merge Rules
+## 🎯 Objective
 
-* Same numbers → both disappear → score increases
-* Divisible numbers → larger ÷ smaller
+* Place number tiles on the grid
+* Use division-based merging logic
+* Manage space using KEEP and TRASH
+* Survive as long as possible and maximize score
 
+---
+
+## 🔢 Merge Rules
+
+* Same numbers → both tiles are removed and score increases
+* If numbers are divisible:
+
+  * Larger ÷ smaller
   * If result = 1 → both disappear
-  * Else → replaced with result
+  * Else → larger tile becomes result
 
 ---
 
 ## ✨ Features
 
 * 🎯 Drag & Drop + Touch support
-* 🧩 Smart merge logic (division-based gameplay)
-* 💡 Hint system for possible moves
+* 🧩 Custom division-based merge system
+* 💡 Hint system for valid moves
 * ♻️ Undo functionality
-* 🗑️ Trash system (limited deletes)
-* 📦 Keep slot to store tiles
+* 🗑️ Limited trash system
+* 📦 Keep slot system
 * ⏱️ Timer tracking
 * 🏆 Best score saved (localStorage)
-* 📈 Level progression system
-* 📱 Responsive UI
+* 📈 Level progression
+* 📱 Fully responsive UI
 
 ---
 
@@ -52,22 +61,22 @@ The goal is simple:
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the repository
 
-```bash
+```bash id="clone2"
 git clone https://github.com/ARTiwary/just-divide-game.git
 cd just-divide-game
 ```
 
 ### 2. Install dependencies
 
-```bash
+```bash id="install2"
 npm install
 ```
 
 ### 3. Run the project
 
-```bash
+```bash id="run2"
 npm start
 ```
 
@@ -77,43 +86,34 @@ npm start
 
 * React (Hooks)
 * JavaScript (ES6+)
-* CSS (Custom styling, no frameworks)
+* CSS (Custom styling)
 
 ---
 
-## 📸 Screenshots (Recommended)
+## 📸 UI Preview
 
-Add screenshots for better presentation:
+### 🎮 Gameplay Screen
 
-### Suggested images:
-
-* 🟩 Gameplay grid
-* 🟪 Drag & drop action
-* 🟥 Game over screen
-* 🟦 Mobile view
-
-> Save them in a `/screenshots` folder and reference like:
-
-```md
-![Gameplay](./screenshots/gameplay.png)
-```
+![Gameplay Screenshot](./eklavaya/screenshots/gameplay.png)
 
 ---
 
-## 🎨 UI Highlights
+## 📌 Future Improvements
 
-* Custom animated UI
-* Soft pastel theme with playful design
-* Fully custom-built components (no UI libraries)
-* Unique cat mascot created using pure CSS
+* 🔊 Sound effects
+* 🌐 Online leaderboard
+* 🎵 Background music
+* 🎯 Difficulty levels
+* 📲 PWA support
 
+---
 
 ## 👨‍💻 Author
 
-Developed by **Ayush Raj Tiwary**
+**Ayush Tiwary**
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source. 
