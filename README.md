@@ -1,7 +1,7 @@
 # 🎮 Just Divide Game
 
 An interactive number puzzle game built with **React**, where players place tiles on a 4×4 grid and use division-based logic to clear the board and score points.
-
+🔗 Live Demo: https://artiwary-just-divide-game-8x56.vercel.app/  
 ---
 
 ## 🧠 Overview
