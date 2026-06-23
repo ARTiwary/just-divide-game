@@ -7,7 +7,7 @@ An interactive number puzzle game built with **React**, where players place tile
 ## 🧠 Overview
 
 Just Divide is a logic puzzle game where numbers interact using mathematical rules.
-The goal is to clear tiles strategically and achieve the highest score possible.
+The goal is to clear tiles strategically and achieve the highest score possible in one go
 
 ---
 
