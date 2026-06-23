@@ -11,7 +11,7 @@ The goal is to clear tiles strategically and achieve the highest score possible 
 
 ---
 
-## 🎯 Objective
+## 🎯 Objective 
 
 * Place number tiles on the grid
 * Use division-based merging logic
