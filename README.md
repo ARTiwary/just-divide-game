@@ -31,7 +31,7 @@ The goal is to clear tiles strategically and achieve the highest score possible 
 
 ---
 
-## ✨ Features
+## ✨ Features 
 
 * 🎯 Drag & Drop + Touch support
 * 🧩 Custom division-based merge system
